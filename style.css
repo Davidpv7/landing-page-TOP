@@ -54,20 +54,44 @@ header a {
    display: flex;
    justify-content: space-around;
    align-items: center;
+   gap: 30px;
 }
 
-.left-container {
-   
-}
 
 .hero h1 {
    color: #F9FAF8;
    font-size: 48px;
+   margin-top: 1px;
+   margin-bottom: 1px;
 }
 
 .hero p {
    color: #F9FAF8;
+   margin-bottom: 1px;
+   margin-top: 1px;
 }
+
+.middle {
+   padding: 10px 100px 40px 100px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.middle img {
+   display: flex;
+   width: 200px;
+   height: auto;
+   border-radius: 10px;
+}
+
+.container-middle {
+   display: flex;
+   gap: 16px;
+   flex-wrap: wrap;
+}
+
+
 
 footer {
    background-color: #1F2937;
